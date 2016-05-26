@@ -21,8 +21,8 @@ Button runSMS_Button;
     public void onClick(View v) {
         switch(v.getId()){
             case(R.id.button_Run):
-                Intent intent = new Intent(this,SMSActivity.class);
-                startActivity(intent);
+                Intent i = new Intent(this,SMSActivity.class);
+                startActivity(i);
                 break;
         }
     }
